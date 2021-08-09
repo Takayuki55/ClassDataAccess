@@ -1,1 +1,1 @@
-# ClassDataAccess
+# ClassDataAccessはアクセスからSQLServerやaccdbに接続する
