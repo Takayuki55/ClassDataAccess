@@ -1,3 +1,44 @@
+# ClassDataAccess is a class for connecting to SQL Server or accdb table from Access Form and displaying / saving data in controls.
+![Class](img/Class.png)
+
+## Using SQL Server for the database allows you to place controls on forms and connect to tables beyond the Access field limit of 255.
+### (There is a limit of 754 controls that can be placed on an Access form)
+## The control source of the control is unbound.
+#
+## ClassDataAccess uses transactions to store data.
+## ● When there are multiple subforms placed on a form, new / edit / save of the parent table and multiple subtables can be processed in a single bundle using transactions.
+## ● Many controls that connect to multiple tables can be placed on one form, and transactions can be used to process new / edit / save in a single bundle.
+#
+## You can operate the data by arranging the edit button, save button, etc. on the form.
+![Buttons](img/Buttons.png)
+## The sample program has three forms.
+![Main](img/Main.png)
+--Form / subform support
+![Employee](img/Employee.png)
+--Supports multiple tables
+![Multiple](img/Multiple.png)
+--SQL Server table support
+![SQLServerEmployee](img/SQLServerEmployee.png)
+#
+## The original table that was connected to SQL Server in the sample has 310 fields. All fields are not visible in the accdb table design. You can manipulate the data by placing controls for all fields on the form. In the sample, 262 controls are placed.
+![SQLTable](img/SQLTable.png)
+#
+## For subform, create and use the table in this accdb as a temporary table for both accdb and SQL Server. "DT_" and "DTCOPY_" are added to the temporary table name. This limits the number of fields in the subform to 255.
+![Tables](img/Tables.png)
+#
+## To connect a control on a form to a table field, write the field name and data type in the control's tag. You can read and write with just this.
+![Tag](img/Tag.png)
+#
+## Describe the predetermined items below.
+### Tables and subtables have required fields.
+### The text box on the form has required fields.
+### During programming, there are conventions for initializing a class.
+### The control tag description has a format.
+### On the form, there is only one control for each field.
+### others
+##### (used Google Translate)
+# 
+# 
 # ClassDataAccessはAccessのFormからSQLServerやaccdbのテーブルに接続してデータをコントロールに表示・保存するためのクラスです。
 ![Class](img/Class.png)
 
