@@ -37,6 +37,8 @@
 ### On the form, there is only one control for each field.
 ### others
 ##### (used Google Translate)
+#
+## Releases -> Access 2files -> (ClassDataAccess.accdb and DB.accdb) To use it, relink to the table in DB.accdb
 # 
 # 
 # ClassDataAccessはMicrosoftAccessのFormからSQLServerやaccdbのテーブルに接続してデータをコントロールに表示・保存するためのクラスです。
@@ -77,3 +79,5 @@
 ### コントロールのタグの記述には、書式があります。
 ### フォーム上、１つのフィールドに対応するコントロールは１つと決まっています。
 ### その他
+#
+## Releases -> Access 2files -> (ClassDataAccess.accdb and DB.accdb) To use it, relink to the table in DB.accdb
