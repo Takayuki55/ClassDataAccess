@@ -1,4 +1,4 @@
-# ClassDataAccess is a class for connecting to SQL Server or accdb table from Access Form and displaying / saving data in controls.
+# ClassDataAccess is a class for connecting to SQL Server or accdb table from MicrosoftAccess Form and displaying / saving data in controls.
 ![Class](img/Class.png)
 
 ## Using SQL Server for the database allows you to place controls on forms and connect to tables beyond the Access field limit of 255.
@@ -39,7 +39,7 @@
 ##### (used Google Translate)
 # 
 # 
-# ClassDataAccessはAccessのFormからSQLServerやaccdbのテーブルに接続してデータをコントロールに表示・保存するためのクラスです。
+# ClassDataAccessはMicrosoftAccessのFormからSQLServerやaccdbのテーブルに接続してデータをコントロールに表示・保存するためのクラスです。
 ![Class](img/Class.png)
 
 ## データベースにSQLServerを使用すればAccessのフィールドの数の制限255を超えてフォームにコントロールを配置しテーブルと接続できます。
