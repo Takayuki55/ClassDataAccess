@@ -13,11 +13,14 @@
 ![Buttons](img/Buttons.png)
 ## The sample program has three forms.
 ![Main](img/Main.png)
---Form / subform support
+
+- Form / subform support
 ![Employee](img/Employee.png)
---Supports multiple tables
+
+- Supports multiple tables
 ![Multiple](img/Multiple.png)
---SQL Server table support
+
+- SQL Server table support
 ![SQLServerEmployee](img/SQLServerEmployee.png)
 #
 ## The original table that was connected to SQL Server in the sample has 310 fields. All fields are not visible in the accdb table design. You can manipulate the data by placing controls for all fields on the form. In the sample, 262 controls are placed.
@@ -80,4 +83,4 @@
 ### フォーム上、１つのフィールドに対応するコントロールは１つと決まっています。
 ### その他
 #
-## Releases -> Access 2files -> (ClassDataAccess.accdb and DB.accdb) To use ClassDataAccess.accdb, relink to the tables in DB.accdb
+## Releases -> Access 2files -> (ClassDataAccess.accdb and DB.accdb) ClassDataAccess.accdb を使用するために DB.accdb の中のテーブルとのリンクを再度接続し直して下さい。
